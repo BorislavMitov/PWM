@@ -1,1 +1,1 @@
-# 7seg
+# 7segment decoder
