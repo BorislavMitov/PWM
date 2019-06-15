@@ -85,9 +85,9 @@ section                    address   length (PC units)   length (bytes) (dec)
 .dinit                       0x366               0x11c           0x1aa  (426)
 .text                        0x482                0xe6           0x159  (345)
 .init.delay32                0x568                0x1c            0x2a  (42)
-.text                        0x584                0x18            0x24  (36)
+.text                        0x584                0x1a            0x27  (39)
 
-                 Total program memory used (bytes):          0x56a  (1386) 4%
+                 Total program memory used (bytes):          0x56d  (1389) 4%
 
 
 Ivt Memory  [Origin = 0x4, Length = 0xfc]
@@ -351,14 +351,14 @@ __FUID3
  .debug_abbrev    0x000222         0x7d build/C30_dsPIC33FJ256GP710A/production/traps.o
  .debug_abbrev    0x00029f         0xb8 build/C30_dsPIC33FJ256GP710A/production/user.o
 
-.debug_line       0x000000        0x3be
+.debug_line       0x000000        0x3bd
  *(.debug_line)
  .debug_line      0x000000         0x1a build/C30_dsPIC33FJ256GP710A/production/configuration_bits.o
  .debug_line      0x00001a         0xb2 build/C30_dsPIC33FJ256GP710A/production/interrupts.o
- .debug_line      0x0000cc         0xe9 build/C30_dsPIC33FJ256GP710A/production/main.o
- .debug_line      0x0001b5         0x9d build/C30_dsPIC33FJ256GP710A/production/system.o
- .debug_line      0x000252         0xb1 build/C30_dsPIC33FJ256GP710A/production/traps.o
- .debug_line      0x000303         0xbb build/C30_dsPIC33FJ256GP710A/production/user.o
+ .debug_line      0x0000cc         0xe8 build/C30_dsPIC33FJ256GP710A/production/main.o
+ .debug_line      0x0001b4         0x9d build/C30_dsPIC33FJ256GP710A/production/system.o
+ .debug_line      0x000251         0xb1 build/C30_dsPIC33FJ256GP710A/production/traps.o
+ .debug_line      0x000302         0xbb build/C30_dsPIC33FJ256GP710A/production/user.o
 
 .debug_frame      0x000000        0x232
  *(.debug_frame)
@@ -1201,6 +1201,6 @@ __c30_signature
  .init.delay32    0x000568         0x1c c:/program files (x86)/microchip/xc16/v1.32/bin/bin/../../lib\libpic30-elf.a(delay32.eo)
                   0x000568                  ___delay32
 
-.text             0x000584         0x18
- .text            0x000584         0x18 build/C30_dsPIC33FJ256GP710A/production/main.o
+.text             0x000584         0x1a
+ .text            0x000584         0x1a build/C30_dsPIC33FJ256GP710A/production/main.o
                   0x000584                  _main
